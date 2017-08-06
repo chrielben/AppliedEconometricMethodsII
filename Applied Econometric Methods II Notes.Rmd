@@ -1,0 +1,141 @@
+---
+title: "Applied Econometric Methods II Notes"
+author: "Christoffer Jul Elben"
+output:
+  pdf_document:
+    highlight: tango
+    number_sections: yes
+    toc: yes
+    includes:
+      in_header: 
+        - tex/packages.tex
+        - tex/options.tex
+      before_body: tex/doc_prefix.tex
+      after_body: tex/appendix.tex
+  html_document:
+    toc: yes
+geometry: 
+  - top=3cm 
+  - bottom=4cm
+  - left=3cm 
+  - right=3cm
+classoption: a4paper
+bibliography: references.bib
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, fig.show = "hold", cache = TRUE)
+``` 
+\pagebreak
+\pagestyle{style2}
+\renewcommand{\headrulewidth}{0pt}
+\setcounter{page}{1}
+
+# Preface
+
+$$2+2=4$$
+
+Hello world [@book].
+
+# Verbeek: Chapter 5: Endogenous Regressors, Instrumental Variables and GMM
+
+Text
+
+## Pre-lecture notes
+
+Text
+
+## Lecture notes
+
+Text
+
+## Problems
+
+Text
+
+# Verbeek: Chapter 6: Maximum Likelyhood Estimation and Specification Tests
+
+Text
+
+## Pre-lecture notes
+
+Text
+
+## Lecture notes
+
+Text
+
+## Problems
+
+Text
+
+# Verbeek: Chapter 7: Models with Limited Dependent Variables
+
+Text
+
+## Pre-lecture notes
+
+Text
+
+## Lecture notes
+
+Text
+
+## Problems
+
+Text
+
+# Verbeek: Chapter 8: Univariate Time Series Models
+
+Text
+
+## Pre-lecture notes
+
+Text
+
+## Lecture notes
+
+Text
+
+## Problems
+
+Text
+
+# Verbeek: Chapter 9: Multivariate Time Series Models
+
+Text
+
+## Pre-lecture notes
+
+Text
+
+## Lecture notes
+
+Text
+
+## Problems
+
+Text
+
+# Verbeek: Chapter 10: Model Based on Panel Data
+
+Text
+
+## Pre-lecture notes
+
+Text
+
+## Lecture notes
+
+Text
+
+## Problems
+
+Text
+
+\label{last_page}
+\pagebreak
+\pagestyle{style1}
+\renewcommand{\headrulewidth}{0pt}
+
+
+# Bibliography
